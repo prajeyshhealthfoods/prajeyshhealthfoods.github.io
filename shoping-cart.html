@@ -712,7 +712,7 @@ Email.send({
     SecureToken : "5cfca514-32d3-460b-9e6c-86269b96d48e",
     To : 'dsastry@gmail.com',
     From : "prajeyshhealthfoods@gmail.com",
-    Subject : "New Order received: "+ DateTime.Today,
+    Subject : "New Order received: ",
     Body : "localStorage.getItem('cart') + localStorage.getItem('shipping')"
 }).then(
   message => alert(message)
